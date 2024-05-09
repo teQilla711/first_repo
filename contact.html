@@ -3,15 +3,66 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>contact</title>
+    <title>Contact Strathmore University</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Need To Reach Out To Us?</h1><br>
-    <h1>Feel Free . . . Here Is How : </h1><br><br>
-    <h2>Here Are Our Socials : </h2><br>
-    <h3>Instagram  <a href="">Our Link</a></h3>
-    <h3>Facebook <a href="">Our Link</a></h3>
-    <h3>Twitter / X <a href="">Our Link</a></h3>
-    <h3>LinkedIn <a href="">Our Link</a></h3>
+    <header>
+        <div class="logo">
+            <img src="strathmore_logo.png" alt="Strathmore University Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="programs.html">Programs</a></li>
+                <li><a href="admissions.html">Admissions</a></li>
+            </ul>
+            <ul>
+                <li><a href="research.html">Research</a></li>
+                <li><a href="news.html">News</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="contact-top">
+            <h1>Contact Us</h1>
+            <p>Get in touch with Strathmore University for more information.</p>
+        </section>
+
+        <section class="contact-content">
+            <div class="contact-info">
+                <h2>How To Contact Us</h2>
+                <p>Strathmore University</p>
+                <p>Ole Sangale Road, Madaraka</p>
+                <p>P.O. Box 59857 - 00200, Nairobi, Kenya</p>
+                <p>Phone: + 2 5 4 7 0 3 0 3 4 0 0 0</p>
+                <p>Email: info@strathmore.edu</p>
+            </div>
+
+            <div class="contact-form">
+                <h2>Send Us a Message</h2>
+                <form>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" required></textarea>
+
+                    <button type="submit" class="btn">Send</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Strathmore University. All rights reserved.</p>
+    </footer>
 </body>
 </html>
