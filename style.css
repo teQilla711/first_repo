@@ -35,3 +35,232 @@ section{margin-bottom: 40px;}
     font-size: 18px;
     margin-bottom: 10px;
 }
+
+.research-top {
+    text-align: center;
+    background-color: #f5f5f5;
+    padding: 50px 0;
+    color: #0055A4;
+}
+
+.research-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px;
+}
+
+.research-card {
+    flex: 1;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin: 20px;
+}
+
+.research-card h2 {
+    color: #0055A4;
+}
+
+.research-card p {
+    margin-bottom: 20px;
+}
+
+.research-card a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #FFC72C;
+    color: #0055A4;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.research-card a:hover {
+    background-color: #FFD966;
+}
+
+.flip-card {
+    /* background-color: transparent; */
+    background-color: #f5f5f5;
+    width: 300px;
+    height: 200px;
+    perspective: 1000px;
+    margin: 20px;
+}
+
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+}
+
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+}
+
+.flip-card-front{
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flip-card-back {
+    background-color: #f5f5f5;
+    color: #FFC72C;
+    transform: rotateY(180deg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.programs-hero {
+    text-align: center;
+    background-color: #f5f5f5;
+    padding: 50px 0;
+    color: #0055A4;
+}
+
+.programs-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 40px;
+}
+
+.program-card {
+    flex: 0 0 calc(33.33% - 20px); /* Three cards per row with margin */
+    margin: 10px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.program-card h2 {
+    color: #0055A4;
+}
+
+.program-card p {
+    margin-bottom: 20px;
+}
+
+.program-card a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #FFC72C;
+    color: #0055A4;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.program-card a:hover {
+    background-color: #FFD966;
+}
+
+.news-top {
+    text-align: center;
+    background-color: #f5f5f5;
+    padding: 50px 0;
+    color: #0055A4;
+}
+
+.news-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px;
+}
+
+.news-article {
+    flex: 1;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin: 20px;
+}
+
+
+.news-article h2 {
+    color: #0055A4;
+}
+
+.news-article p {
+    margin-bottom: 20px;
+}
+
+.news-article a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #FFC72C;
+    color: #0055A4;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.news-article a:hover {
+    background-color: #FFD966;
+}
+
+.events-top {
+    text-align: center;
+    background-color: #f5f5f5;
+    padding: 50px 0;
+    color: #0055A4;
+}
+
+.events-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px;
+}
+
+.event-card {
+    flex: 1;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin: 20px;
+}
+
+.event-card h2 {
+    color: #0055A4;
+}
+
+.event-card p {
+    margin-bottom: 20px;
+}
+
+.event-card a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #FFC72C;
+    color: #0055A4;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.event-card a:hover {
+    background-color: #FFD966;
+}
