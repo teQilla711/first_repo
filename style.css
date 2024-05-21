@@ -10,13 +10,17 @@ nav ul{display: inline-flex;}
 nav ul li{margin-left: 72px;}
 nav ul li a{font-weight: bold; transition: color 0.3s ease;}
 nav ul li a:hover{color: #FFC72C; text-transform: uppercase;}
+nav ul li a.active{color: #FFC72C; text-transform: uppercase;text-decoration:underline;}
 main{padding: 40px;}
 section{margin-bottom: 40px;}
 .top{text-align: center; margin-bottom: 60px;}
 .top h1{font-size: 36px; margin-bottom: 20px;}
 .top p{font-size: 18px; margin-bottom: 30px;}
+.top h2,p, .about h2,p, .programs h2,li, .news h2,p{text-align: center;}
 .about, .programs, .news, .admissions-content{background-color: #fff; color: #0055A4; padding: 30px; border-radius: 5px;}
 .about h2, .programs h2, .news h2, .admissions-top h1{font-size: 24px; margin-bottom: 20px;}
+.about-top h1, p{text-align: center;}
+.admissions-top h1, p{text-align: center;}
 .programs ul li{margin-bottom: 10px;}
 .news article{display: flex; align-items: center; margin-bottom: 20px;}
 .news article img{width: 200px; margin-right: 20px;}
@@ -41,6 +45,7 @@ section{margin-bottom: 40px;}
 .program-card p{margin-bottom: 20px;}
 .program-card a{display: inline-block; padding: 10px 20px; background-color: #FFC72C; color: #0055A4; border-radius: 5px; text-decoration: none;}
 .program-card a:hover{background-color: #FFD966;}
+.programs-top h1, p{text-align: center;}
 .news-top {text-align: center; background-color: #f5f5f5; padding: 50px 0; color: #0055A4;}
 .news-content{display: flex; flex-wrap: wrap; justify-content: space-around; align-items: center; padding: 40px;}
 .news-article{flex: 1; padding: 20px; background-color: #fff; border-radius: 5px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); text-align: center; margin: 20px;}
