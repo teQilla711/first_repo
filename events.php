@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SU Events</title>
+    <title>Strathmore University</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <?php include_once ("similarCodes/header.php");?>
+    <?php include_once ("templates/nav.php");?>
     <main>
         <section class="events-top">
             <h1>Peek Into Some Of Our Events Lined For YOU</h1>
@@ -33,6 +33,6 @@
             </div>
         </section>
     </main>
-    <?php require_once ("similarCodes/footer.php");?>
+    <?php require_once ("templates/footer.php");?>
 </body>
 </html>

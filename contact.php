@@ -3,11 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SU Contact</title>
+    <title>Strathmore University</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <?php include_once ("similarCodes/header.php");?>
+    <?php include_once ("templates/nav.php");?>
+        <div class="logo"><img src="" alt="SULogo"></div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="programs.html">Programs</a></li>
+                <li><a href="admissions.html">Admissions</a></li>
+                <li><a href="research.html">Research</a></li>
+                <li><a href="news.html">News</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
     <main>
         <section class="contact-top"><h1>Contact Us</h1><p>Get in touch with Strathmore University for more information.</p></section>
         <section class="contact-content">
@@ -35,6 +49,6 @@
             </div>
         </section>
     </main>
-    <?php require_once ("similarCodes/footer.php");?>
+    <?php require_once ("templates/footer.php");?>
 </body>
 </html>

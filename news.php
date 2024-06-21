@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SU News</title>
+    <title>Strathmore University</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<?php include_once ("similarCodes/header.php");?>
+    <?php include_once ("templates/nav.php");?>
     <main>
         <section class="news-top">
             <h1>Strathmore University News</h1>
@@ -35,6 +35,6 @@
             </article>
         </section>
     </main>
-    <?php require_once ("similarCodes/footer.php");?>
+    <?php require_once ("templates/footer.php");?>
 </body>
 </html>

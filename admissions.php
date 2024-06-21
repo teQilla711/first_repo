@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SU Admissions</title>
+    <title>Strathmore University</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <?php include_once ("similarCodes/header.php");?>
+    <?php include_once ("templates/nav.php");?>
     <main>
         <section class="admissions-top"><h1>Admissions</h1><p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam maiores, quod nesciunt commodi at expedita aliquam impedit? Quibusdam voluptas mollitia quisquam modi debitis dolore quo iure sapiente, illo veniam ratione!</p></section>
         <section class="admissions-content">
@@ -42,6 +42,6 @@
             <a href="" class="btn">Apply Now</a>
         </section>
     </main>
-    <?php require_once ("similarCodes/footer.php");?>
+    <?php require_once ("templates/footer.php");?>
 </body>
 </html>

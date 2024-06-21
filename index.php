@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <?php include_once ("similarCodes/header.php");?>
+    <?php include_once ("templates/nav.php");?>
     <main>
         <section class="top">
             <h2>Welcome to Strathmore University</h2>
@@ -40,6 +40,6 @@
             </article>
         </section>
     </main>
-    <?php require_once ("similarCodes/footer.php");?>
+    <?php require_once ("templates/footer.php");?>
 </body>
 </html>
