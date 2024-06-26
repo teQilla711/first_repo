@@ -1,5 +1,5 @@
 <header>
-        <div class="logo"><img src="" alt="SULogo"></div>
+        <div class="logo"><img src="images/strathMoreLogo.jpg" alt="SULogo"></div>
         <nav>
             <ul>
                 <li><a href="index.php">Home</a></li>

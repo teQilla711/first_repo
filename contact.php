@@ -8,25 +8,13 @@
 </head>
 <body>
     <?php include_once ("templates/nav.php");?>
-        <div class="logo"><img src="" alt="SULogo"></div>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="programs.html">Programs</a></li>
-                <li><a href="admissions.html">Admissions</a></li>
-                <li><a href="research.html">Research</a></li>
-                <li><a href="news.html">News</a></li>
-                <li><a href="events.html">Events</a></li>
-                <li><a href="contact.html" class="active">Contact</a></li>
-            </ul>
-        </nav>
     </header>
     <main>
         <section class="contact-top"><h1>Contact Us</h1><p>Get in touch with Strathmore University for more information.</p></section>
         <section class="contact-content">
             <div class="contact-info">
-                <h2>How To Contact Us</h2>
+                <h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    How To Contact Us</h2>
                 <p>Strathmore University</p>
                 <p>Ole Sangale Road, Madaraka</p>
                 <p>P.O. Box 59857 - 00200, Nairobi, Kenya</p>
@@ -35,7 +23,7 @@
             </div>
 
             <div class="contact-form">
-                <h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                     Send Strathmore a Message</h2>
                 <form>
                     <label for="name">Name:</label>

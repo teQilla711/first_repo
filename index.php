@@ -33,10 +33,10 @@
         <section class="news">
             <h2>Latest News</h2>
             <article>
-                <img src="" alt="newsImage">
+                <img src="images/news.jpg" alt="newsImage">
                 <h3>News Heading</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos aut tempora deleniti animi nihil debitis consequatur adipisci reprehenderit iure? Maiores tempore eligendi rerum ratione corrupti veniam neque, eos perspiciatis inventore!</p>
-                <a href="news.html" class="btn">More News</a>
+                <a href="news.php" class="btn">More News</a>
             </article>
         </section>
     </main>
