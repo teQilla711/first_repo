@@ -67,6 +67,8 @@ mysqli_close($conn);
                     <textarea id="message" name="message" required></textarea>
                     <button type="submit" class="btn">Send</button>
                 </form>
+                <br><br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="logIn.php" class="btn">Click Here To Give Feedback As A Student</a>
             </div>
         </section>
     </main>

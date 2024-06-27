@@ -10,6 +10,7 @@
                 <li><a href="news.php">News</a></li>
                 <li><a href="events.php">Events</a></li>
                 <li><a href="contact.php">Contact</a></li>
+                <!-- <li><a href="studentFeedback.php">Feedback</a></li> -->
             </ul>
         </nav>
     </header>
