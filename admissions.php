@@ -39,7 +39,7 @@
                     </div>
                 </div>
             </div>
-            <a href="" class="btn">Apply Now</a>
+            <br><br><a href="admissionsApplications.php" class="btn">Apply Now</a>
         </section>
     </main>
     <?php require_once ("templates/footer.php");?>

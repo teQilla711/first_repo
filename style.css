@@ -18,6 +18,7 @@ section{margin-bottom: 40px;}
 .top p{font-size: 18px; margin-bottom: 30px;}
 .top h2,p, .about h2,p, .programs h2,li, .news h2,p{text-align: center;}
 .about, .programs, .news, .admissions-content{background-color: #fff; color: #0055A4; padding: 30px; border-radius: 5px;}
+.admissions-content{display: flex; justify-content: space-around; align-items: center; padding: 40px;}
 .about h2, .programs h2, .news h2, .admissions-top h1{font-size: 24px; margin-bottom: 20px;}
 .about-top h1, p{text-align: center;}
 .admissions-top h1, p{text-align: center;}
@@ -32,7 +33,7 @@ section{margin-bottom: 40px;}
 .research-card p{margin-bottom: 20px;}
 .research-card a{display: inline-block; padding: 10px 20px; background-color: #FFC72C; color: #0055A4; border-radius: 5px; text-decoration: none;}
 .research-card a:hover{background-color: #FFD966;}
-.flip-card{background-color: #f5f5f5; width: 300px; height: 200px; perspective: 1000px; margin: 20px;}
+.flip-card{flex: 0 0 calc(33.33% - 20px); /* Three cards per row with margin */ margin: 10px;background-color: #f5f5f5; width: 300px; height: 200px; perspective: 1000px; margin: 20px;}
 .flip-card-inner{position: relative; width: 100%; height: 100%; text-align: center; transition: transform 0.6s; transform-style: preserve-3d;}
 .flip-card:hover .flip-card-inner{transform: rotateY(180deg);}
 .flip-card-front, .flip-card-back{position: absolute; width: 100%; height: 100%; backface-visibility: hidden;}
@@ -70,3 +71,13 @@ section{margin-bottom: 40px;}
 .contact-form button:hover{background-color: #FFD966;}
 
 /* .popup-message p{background-color: #ffffff; color: #003366; margin: 15% auto; padding: 20px; border: 2px solid #003366; width: 30%; text-align: center;} */
+
+.admissionsApplication-top{text-align: center; background-color: #f5f5f5; padding: 50px 0; color: var(#0055A4);}
+.admissionsApplication-content{display: flex; justify-content: space-around; flex-direction: column-reverse; align-items: center; padding: 20px; width: 1250px;}
+.admissionsApplication-form{flex: 1; padding: 20px; width: 50%;}
+.admissionsApplication-form form{display: flex; flex-direction: column;}
+.admissionsApplication-form label{margin-bottom: 10px;}
+.admissionsApplication-form input,
+.admissionsApplication-form textarea{margin-bottom: 20px; padding: 10px; border: 1px solid #ccc; border-radius: 5px;}
+.admissionsApplication-form button{padding: 10px 20px; background-color:#FFC72C; color: #0055A4; border: none; border-radius: 5px; cursor: pointer;}
+.admissionsApplication-form button:hover{background-color: #FFD966;}
