@@ -103,7 +103,7 @@ mysqli_close($conn);
             <h1>Students Feedback</h1>
             <p>Share your feedback with Strathmore University.</p>
             <button id="logout-btn" class="btn btn-danger" onclick="window.location.href='logIn.php'">
-                <i class="fas fa-sign-out-alt"></i> Logout
+                <!-- <i class="fas fa-sign-out-alt"></i> -->Logout
             </button>
         </section>
         <section class="contact-content">

@@ -43,7 +43,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 
             if(mysqli_stmt_execute($stmt)){
                 echo "<script>
-                        window.location.href = 'login.php';
+                        window.location.href = 'logIn.php';
                       </script>";
             } else {
                 echo "<script>
