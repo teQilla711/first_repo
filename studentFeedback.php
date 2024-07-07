@@ -38,7 +38,7 @@ if($_SERVER["REQUEST_METHOD"]=="POST"){
         } else {
             $sql = "INSERT INTO studentFeedbackTexts (admissionNumber, email, feedback) VALUES (?, ?, ?)";
             $stmt = mysqli_prepare($conn, $sql);
-            mysqli_stmt_bind_param($stmt, "ssss", $admissionNumber, $email, $feedback);
+            mysqli_stmt_bind_param($stmt, "sss", $admissionNumber, $email, $feedback);
 
             if(mysqli_stmt_execute($stmt)){
                 echo "<script>
@@ -79,12 +79,33 @@ mysqli_close($conn);
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SU Students Feedback</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
+        #logout-btn {
+            background-color: #005A9E; /* Strathmore primary blue */
+            border-color: #005A9E;
+            color: #FFFFFF; /* Strathmore primary white */
+            float: right;
+            margin-right: 20px;
+        }
+
+        #logout-btn:hover {
+            background-color: #003A63; /* Strathmore primary dark blue */
+            border-color: #003A63;
+            color: #FFFFFF;
+        }
+    </style>
 </head>
 <body>
     <?php include_once ("templates/nav.php");?>
-    </header>
     <main>
-        <section class="contact-top"><h1>Students Feedback</h1><p>Share your feedback with Strathmore University.</p></section>
+        <section class="contact-top">
+            <h1>Students Feedback</h1>
+            <p>Share your feedback with Strathmore University.</p>
+            <button id="logout-btn" class="btn btn-danger" onclick="window.location.href='logIn.php'">
+                <i class="fas fa-sign-out-alt"></i> Logout
+            </button>
+        </section>
         <section class="contact-content">
             <div class="contact-info">
             <h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;

@@ -37,7 +37,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
                     }, 3000);
                   </script>";
         } else {
-            $sql = "INSERT INTO users (name, email, password) VALUES (?, ?, ?)";
+            $sql = "INSERT INTO duplicateContact_info (name, email, password) VALUES (?, ?, ?)";
             $stmt = mysqli_prepare($conn, $sql);
             mysqli_stmt_bind_param($stmt, "sss", $name, $email, $password);
 
