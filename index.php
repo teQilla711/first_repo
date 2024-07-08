@@ -10,7 +10,7 @@
     <?php include_once ("templates/nav.php");?>
     <main>
         <section class="top">
-            <h2>Welcome to Strathmore University</h2>
+            <h2>Welcome To Strathmore University</h2>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam quas inventore dicta maiores necessitatibus, consequatur facilis officia voluptas tenetur hic rerum soluta molestiae nobis quam suscipit officiis? Tempora, quidem perspiciatis.</p>
             <a href="about.php" class="btn">Learn More</a>
         </section>
