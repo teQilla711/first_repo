@@ -1,4 +1,0 @@
-﻿This is a test file to upload an admission and download to check for proper website project working.
-
-- WebApplication
-- Adm: 138335

@@ -8,7 +8,6 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     $name = $_POST['name'];
     $email = $_POST['email'];
     $course = $_POST['course'];
-
     // Check if files were uploaded without errors
     $files = array();
     if(isset($_FILES['documents']) && is_array($_FILES['documents']['tmp_name'])) {
