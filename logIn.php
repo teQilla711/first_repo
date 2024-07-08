@@ -47,7 +47,7 @@ mysqli_close($conn);
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SU Log In</title>
+    <title>SU LOG IN</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -58,17 +58,16 @@ mysqli_close($conn);
         <section class="contact-content">
             <div class="contact-info"></div>
             <div class="contact-form">
-                <h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    Log In</h2>
+                <h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Log In</h2>
                 <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
-                    <label for="email"><strong>Email:</strong></label>
+                    <label for="email"><strong> Email: </strong></label>
                     <input type="email" id="email" name="email" required>
-                    <label for="password"><strong>Password:</strong></label>
+                    <label for="password"><strong> Password: </strong></label>
                     <input type="password" id="password" name="password" required>
-                    <button type="submit" class="btn"><strong>Log In</strong></button>
+                    <button type="submit" class="btn"><strong> Log In </strong></button>
                 </form>
                 <br><br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                <a href="signUp.php" class="btn"><strong>Not Registered? Sign Up</strong></a>
+                <a href="signUp.php" class="btn"><strong> Not Registered? Sign Up </strong></a>
             </div>
             <div class="contact-info"></div>
         </section>

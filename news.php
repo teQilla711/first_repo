@@ -10,7 +10,7 @@
     <?php include_once ("templates/nav.php");?>
     <main>
         <section class="news-top">
-            <h1>Strathmore University News</h1>
+            <h1><strong>Strathmore University News</strong></h1>
             <p>Stay up-to-date with the latest news and updates from Strathmore University.</p>
         </section>
 

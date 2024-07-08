@@ -72,7 +72,7 @@ mysqli_close($conn);
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SU Sign Up</title>
+    <title>SU SIGN UP</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -86,16 +86,16 @@ mysqli_close($conn);
                 <h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                     Sign Up</h2>
                 <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
-                    <label for="name">Name:</label>
+                    <label for="name"><strong> Name: </strong></label>
                     <input type="text" id="name" name="name" required>
-                    <label for="email">Email:</label>
+                    <label for="email"><strong> Email: </strong></label>
                     <input type="email" id="email" name="email" required>
-                    <label for="password">Password:</label>
+                    <label for="password"><strong> Password: </strong></label>
                     <input type="password" id="password" name="password" required>
                     <button type="submit" class="btn"><strong>Sign Up</strong></button>
                 </form>
                 <br><br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                <a href="logIn.php" class="btn">Already Registered? Log In</a>
+                <a href="logIn.php" class="btn"><strong> Already Registered? Log In </strong></a>
             </div>
             <div class="contact-info"></div>
         </section>

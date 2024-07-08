@@ -1,5 +1,4 @@
 <?php include 'databaseConnection3.php';
-
 ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
@@ -85,10 +84,8 @@ mysqli_close($conn);
     <main>
         <section class="contact-top">
             <h1>Students Feedback</h1>
-            <p>Share your feedback with Strathmore University.</p>
-            <button id="logout-btn" class="btn btn-danger" onclick="window.location.href='logIn.php'">
-                <!-- <i class="fas fa-sign-out-alt"></i> -->Logout
-            </button>
+            <p>Share Your Feedback With Strathmore University.</p>
+            <button id="logout-btn" class="btn btn-danger" onclick="window.location.href='logIn.php'">Logout</button>
         </section>
         <section class="contact-content">
             <div class="contact-info">
@@ -105,22 +102,19 @@ mysqli_close($conn);
                 <h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                     Share Your Feedback</h2>
                 <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
-                    <label for="admissionNumber">Admission Number:</label>
+                    <label for="admissionNumber"><strong> Admission Number: </strong></label>
                     <input type="text" id="admissionNumber" name="admissionNumber" required>
-                    <label for="email">Strathmore Email:</label>
+                    <label for="email"><strong> Strathmore Email: </strong></label>
                     <input type="text" id="email" name="email" required>
-                    <label for="feedback">Feedback:</label>
+                    <label for="feedback"><strong> Feedback: </strong></label>
                     <input type="text" id="feedback" name="feedback" required>
-                    <button type="submit" class="btn">Submit Feedback</button>
+                    <button type="submit" class="btn"><strong> Submit Feedback </strong></button>
                 </form>
             </div>
         </section>
     </main>
     <?php require_once ("templates/footer.php");?>
-
-    <div id="popup-message">
-        <div id="message-box">
-        </div>
+    <div id="popup-message"><div id="message-box"></div>
     </div>
 </body>
 </html>

@@ -1,5 +1,4 @@
 <?php include 'databaseConnection.php';
-
 ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
@@ -43,11 +42,10 @@ mysqli_close($conn);
     <?php include_once ("templates/nav.php");?>
     </header>
     <main>
-        <section class="contact-top"><h1>Contact Us</h1><p>Get in touch with Strathmore University for more information.</p></section>
+        <section class="contact-top"><h1>Contact Us</h1><p>Get In Touch With Strathmore University For More Information.</p></section>
         <section class="contact-content">
             <div class="contact-info">
-                <h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    How To Contact Us</h2>
+                <h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;How To Contact Us</h2>
                 <p>Strathmore University</p>
                 <p>Ole Sangale Road, Madaraka</p>
                 <p>P.O. Box 59857 - 00200, Nairobi, Kenya</p>
@@ -59,13 +57,13 @@ mysqli_close($conn);
                 <h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                     Send Strathmore a Message</h2>
                 <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
-                    <label for="name"><strong>Name:</strong></label>
+                    <label for="name"><strong> Name: </strong></label>
                     <input type="text" id="name" name="name" required>
-                    <label for="email"><strong>Email:</strong></label>
+                    <label for="email"><strong> Email: </strong></label>
                     <input type="email" id="email" name="email" required>
-                    <label for="message"><strong>Message:</strong></label>
+                    <label for="message"><strong> Message: </strong></label>
                     <textarea id="message" name="message" required></textarea>
-                    <button type="submit" class="btn"><strong>Send</strong></button>
+                    <button type="submit" class="btn"><strong> Send </strong></button>
                 </form>
                 <br><br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 <a href="logIn.php" class="btn"><strong>Click Here To Give Feedback As A Student</strong></a>

@@ -17,17 +17,17 @@
             <div class="research-card">
                 <h2>Research Topic</h2>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil autem perferendis tempora eaque tenetur libero quam, explicabo quos aliquam, voluptas incidunt? Tenetur nostrum itaque molestias aperiam aliquid eum molestiae iusto.</p>
-                <a href="" class="btn">Learn More</a>
+                <a href="" class="btn"><strong> Learn More </strong></a>
             </div>
             <div class="research-card">
                 <h2>Research Topic</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus laudantium fugit voluptates explicabo incidunt hic odio, autem nobis necessitatibus reiciendis libero accusamus quasi doloremque, officiis nemo voluptatum cum, adipisci perspiciatis.</p>
-                <a href="" class="btn">Learn More</a>
+                <a href="" class="btn"><strong> Learn More </strong></a>
             </div>
             <div class="research-card">
                 <h2>Research Topic</h2>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque, facilis, corrupti culpa at deserunt eligendi sint placeat ullam est hic cumque aperiam vero ratione error dolores nulla, beatae consequuntur doloribus.</p>
-                <a href="" class="btn">Learn More</a>
+                <a href="" class="btn"><strong> Learn More </strong></a>
             </div>
         </section>
     </main>
