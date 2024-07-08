@@ -13,7 +13,7 @@
             <h1>About Strathmore University</h1>
             <p>Learn more about our history, mission, and values. <br><br><br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, repudiandae vero! Nulla rerum quia sed quas omnis sit nam illo, quasi facilis, molestiae tempore velit voluptas provident, atque aut repudiandae?</p>
         </section>
-        <section class="about-content">
+        <section class="programs-content">
             <div class="flip-card">
                 <div class="flip-card-inner">
                     <div class="flip-card-front"><h2>Our History</h2></div>

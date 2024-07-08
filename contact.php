@@ -59,16 +59,16 @@ mysqli_close($conn);
                 <h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                     Send Strathmore a Message</h2>
                 <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
-                    <label for="name">Name:</label>
+                    <label for="name"><strong>Name:</strong></label>
                     <input type="text" id="name" name="name" required>
-                    <label for="email">Email:</label>
+                    <label for="email"><strong>Email:</strong></label>
                     <input type="email" id="email" name="email" required>
-                    <label for="message">Message:</label>
+                    <label for="message"><strong>Message:</strong></label>
                     <textarea id="message" name="message" required></textarea>
-                    <button type="submit" class="btn">Send</button>
+                    <button type="submit" class="btn"><strong>Send</strong></button>
                 </form>
                 <br><br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                <a href="logIn.php" class="btn">Click Here To Give Feedback As A Student</a>
+                <a href="logIn.php" class="btn"><strong>Click Here To Give Feedback As A Student</strong></a>
             </div>
         </section>
     </main>

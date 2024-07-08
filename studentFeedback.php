@@ -79,22 +79,6 @@ mysqli_close($conn);
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SU Students Feedback</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-    <style>
-        #logout-btn {
-            background-color: #005A9E; /* Strathmore primary blue */
-            border-color: #005A9E;
-            color: #FFFFFF; /* Strathmore primary white */
-            float: right;
-            margin-right: 20px;
-        }
-
-        #logout-btn:hover {
-            background-color: #003A63; /* Strathmore primary dark blue */
-            border-color: #003A63;
-            color: #FFFFFF;
-        }
-    </style>
 </head>
 <body>
     <?php include_once ("templates/nav.php");?>

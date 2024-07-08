@@ -72,41 +72,16 @@ mysqli_close($conn);
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SU Sign In</title>
+    <title>SU Sign Up</title>
     <link rel="stylesheet" href="style.css">
-    <style>
-        .popup-message {
-            display: none;
-            justify-content: center;
-            align-items: center;
-            position: fixed;
-            z-index: 1;
-            left: 0;
-            top: 0;
-            width: 100%;
-            height: 100%;
-            overflow: auto;
-            background-color: rgba(0, 0, 0, 0.4);
-        }
-
-        .popup-message .message-box {
-            background-color: #ffffff;
-            color: #003366;
-            padding: 20px;
-            border: 2px solid #003366;
-            width: 30%;
-            text-align: center;
-        }
-    </style>
 </head>
 <body>
     <?php include_once ("templates/nav.php");?>
     </header>
     <main>
-        <section class="contact-top"><h1>Sign In</h1><p>Create an account with Strathmore University.</p></section>
+        <section class="contact-top"><h1>Sign Up</h1><p>Create An Account With Strathmore University.</p></section>
         <section class="contact-content">
             <div class="contact-info"></div>
-
             <div class="contact-form">
                 <h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                     Sign Up</h2>

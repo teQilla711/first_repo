@@ -12,23 +12,23 @@
         <section class="top">
             <h2>Welcome to Strathmore University</h2>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam quas inventore dicta maiores necessitatibus, consequatur facilis officia voluptas tenetur hic rerum soluta molestiae nobis quam suscipit officiis? Tempora, quidem perspiciatis.</p>
-            <a href="about.html" class="btn">Learn More</a>
+            <a href="about.php" class="btn">Learn More</a>
         </section>
         <section class="about">
             <h2>About Strathmore</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae a, iusto reprehenderit voluptas quae temporibus labore! Porro sequi ab provident quas ipsa. Deserunt quam perspiciatis earum, voluptatibus dignissimos repellendus officiis.</p>
-            <a href="about.html" class="btn">Explore Our History</a>
+            <a href="about.php" class="btn">Explore Our History</a>
         </section>
         <section class="programs">
             <h2>Our Programs</h2>
             <ul>
-                <li>Business and Management</li>
                 <li>Business Information Technology</li>
-                <li>Law</li>
-                <li>Communication and Media</li>
-                <li>International Relations</li>
+                <li>Computer Science</li>
+                <li>Business Administration</li>
+                <li>Bachelor of Law</li>
+                <li>Electrical Engineering</li>
             </ul>
-            <a href="programs.html" class="btn">View All Programs</a>
+            <a href="programs.php" class="btn">View All Programs</a>
         </section>
         <section class="news">
             <h2>Latest News</h2>

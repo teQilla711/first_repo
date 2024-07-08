@@ -62,25 +62,25 @@ mysqli_close($conn);
 <?php include_once ("templates/nav.php");?>
     <div class="admissionsApplication-top">
         <h1>Strathmore University Application Form</h1>
-        <p>Looking To Join Strathmore University?<br><br><br>Fill In The Form Below To Apply</p>
+        <p><strong>Looking To Join Strathmore University?<br><br><br>Fill In The Form Below To Apply</strong></p>
     </div>
     <div class="admissionsApplication-content">
         <div class="admissionsApplication-form">
             <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" enctype="multipart/form-data">
-                <label for="name">Name:</label>
+                <label for="name"><strong>Name:</strong></label>
                 <input type="text" id="name" name="name" placeholder="Enter your name" required>
-                <label for="email">Email:</label>
+                <label for="email"><strong>Email:</strong></label>
                 <input type="email" id="email" name="email" placeholder="Enter your email" required>
-                <label for="course">Course:</label>
+                <label for="course"><strong>Course:</strong></label>
                 <select id="course" name="course" required>
-                    <option value="">Select a course</option>
-                    <option value="Business Information Technology">Business Information Technology</option>
-                    <option value="Computer Science">Computer Science</option>
-                    <option value="Business Administration">Business Administration</option>
-                    <option value="Law">Bachelor of Law</option>
-                    <option value="Electrical Engineering">Electrical Engineering</option>
+                    <option value=""><strong>Select a course</strong></option>
+                    <option value="Business Information Technology"><strong>Business Information Technology</strong></option>
+                    <option value="Computer Science"><strong>Computer Science</strong></option>
+                    <option value="Business Administration"><strong>Business Administration</strong></option>
+                    <option value="Law"><strong>Bachelor of Law</strong></option>
+                    <option value="Electrical Engineering"><strong>Electrical Engineering</strong></option>
                 </select><br><br>
-                <label for="documents">Upload Documents:</label>
+                <label for="documents"><strong>Upload Documents:</strong></label>
                 <input type="file" id="documents" name="documents[]" multiple>
                 <?php if(isset($error_message)): ?>
                     <div class="error-message"><?php echo $error_message; ?></div>
